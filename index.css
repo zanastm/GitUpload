@@ -1,0 +1,80 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: white;
+  line-height: 1.8;
+  align-self: center; 
+  background-image:url(./img/360_F_93364974_eoos8QGsa9CzTa5hGRRL6EutXMSKgdOA.jpg) ;
+  background-size: cover;
+}
+h1 {
+    color: gold;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+button {
+    background-color: gold;
+    color: green;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+#btn-newGame{
+  background-color: #ddd;
+  padding: 5px 5px;
+  width: 10px 10px;
+  margin-right: 500px;
+  z-index: +1;
+}
+#btn-play {
+  background: goldenrod;
+
+}
+
+.top-navbar h1 img{
+  color: gold;
+  font-size: 50px;
+  height: 100px;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  z-index: +1;
+}
+
+#btn-newGame:hover {
+  background-color: rgb(98, 29, 29);
+  color: white;
+}
+button:hover {
+  background-image: repeating-conic-gradient(red 10%, yellow 20%);
+  color: black; 
+  font-weight: bold;
+  transform: scale(1.30); 
+    
+}
+#btn-newGame:hover {
+  background-image: repeating-conic-gradient(purple 10%, green 20%, yellow 30%);
+  color: black;
+  font-weight:900;
+  transform: scale(1.20); 
+}
+.btn-selected10:hover {
+  transform: scale(1.50);
+}
+.btn-selected25:hover {
+  transform: scale(1.50);
+}
+.btn-selected50:hover {
+  transform: scale(1.50);
+}
+.btn-selected100:hover {
+  transform: scale(1.50);
+}

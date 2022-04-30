@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>BlackJack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+      
+    <nav class="top-navbar">
+        <ul>
+            <button id="btn-newGame" onclick="newGame()" class="active">
+                New Game
+              </button>
+              <h1 class="title active">BlackJack</h1>
+              <img src="./img/pile-chip.png" class="title-img" height="50px"/>
+        </ul>
+   
+    </nav>
+
+    <h5>
+      Start playing by selecting your bet below. To view the rules at any time,
+      click the icon in the top right.
+    </h5>
+
+    <div class="wagers">
+      <ul class="wagers-select-ul">
+        <img src="./img/10-chip-1.png" width="100px" style="position: relative" class="btn-selected10" onclick="selected10();"/>
+        <img src="./img/25-chip.png" width="100px" style="position: relative" class="btn-selected25" onclick="selected10();"/>
+        <img src="./img/50-chip.png" width="100px" style="position: relative" class="btn-selected50"  width="100px" onclick="selected10();"/>
+        <img src="./img/100-chip.png" width="100px"  style="position: relative" class="btn-selected100" onclick="selected10();"/>
+      </ul>
+      <button id="btn-play" onclick="startGame()">Let's Play</button>
+    </div>
+    <div id="chips">
+      <span id="bettingAmount">Bet</span>
+      <span id="sum-el">Per: 500$</span>
+    </div>
+    <div>
+        <div>
+            <p id="cards-el">Cards: </p>
+        </div>
+    </div>
+    <div id="decisions-time">
+      <button id="btn-hitDecision" onclick="hitDecision()">HIT</button>
+      <button id="btn-standDecision" onclick="standDecision()">Stand</button>
+      <button id="btn-splitDecision" onclick="splitDecision()">Split</button>
+      <button id="btn-doubleDecision" onclick="doubleDecision()">Double</button>
+    </div>
+    <p id="message-el"></p>
+
+    <script src="./mathlogic.js"></script>
+  </body>
+</html>
