@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nicky's About Me Page</title>
+    <link rel="shortcut icon" href="../favicon/faviconTitle.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/aboutMe.css" />
+    <link rel="stylesheet" href="../css/aboutMecardContainer.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+</head>
+<body id="aboutMePage" class="responsive responsive-dp en">
+    <div class="MainPageContainer"></div>
+    <h6>This page is responsive (FlexBox.CSS.JS.API-Fonts,ReCaptacha)</h6>
+    <div id="pageContainer">
+        <div class="all topnav">
+            <div class="lefter" onclick="window.location.href = '../pages/landingPage.html'">
+                <div class="text" onclick="window.location.href = '../pages/landingPage.html'" ;>Home</div>
+            </div>
+            <div class="left" onclick="window.location.href = '../pages/modalterminalPage.html'">
+                <div class="text" onclick="WebDesign()">Web Design</div>
+            </div>
+            <div class="center">
+                <div class="explainer"><span>Menu</span></div>
+                <div class="text" onclick="gamePage()">Fun Games</div>
+            </div>
+            <div class="right" onclick="window.location.href = '../pages/funpage.html'">
+                <div class="text" onclick="activeWebpages()">Active Projects</div>
+            </div>
+            <div class="righter" onclick="window.location.href = '../pages/AboutMe.html'">
+                <div class="text">About Me</div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+    </div>
+    <br>
+    <h1 class="myName"><strong><em>Nicky Vidovic</em></strong></h1>
+    <header> Glad you want to know more!</header>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum repellendus a mollitia debitis doloremque nam
+        voluptas
+        maiores illo aliquid nulla quae, laborum magnam. Sapiente, sint?</p>
+    <br>
+    <hr>
+    <br>
+    <div><h2>Active projects</h2>
+    <h4>These are the websites I have deployed so far! Take a look and don't forget to drop a comment and like !</h4>
+    <div class="centerCard">
+    <div class="property-card">
+        <video id="video1" preload="" autoplay="" muted="" playsinline="" loop="" src="../img/Za-nas.mp4" type="video/mp4"></video> 
+        <a href="https://za-nas.com" target="_blank">
+          <div class="property-image">
+            <div class="property-image-title">
+               
+            </div>
+          </div></a>
+        <div class="property-description">
+          <h5 style="color:black" class="insideCardTexth5"> Full Stack E-Commerce </h5>
+          <p class="insideCardText"style="color:black"> Running on Firebase. <br>E-Commerce.<br>www.za-nas.com</p>
+        </div>
+        </a>
+      </div>
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <div class="property-image-title">
+            </div>
+          </div></a>
+        <div class="property-description">
+          <h5> Full Stack </h5>
+          <p class="insideCardText"style="color:black">Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+        </div>
+        <a href="#">
+          <div class="property-social-icons">
+          </div>
+        </a>
+      </div>
+      <div class="property-card">
+        <a href="#">
+          <div class="property-image">
+            <div class="property-image-title">
+              Optional <h5>Card Title</h5> If you want it, turn on the CSS also.
+            </div>
+          </div></a>
+        <div class="property-description">
+          <h5> Card Title </h5>
+          <p class="insideCardText"style="color:black">Lorem Ipsum Dipsum hortata. Mixcall Horcho. Mixwell Chingo. More Bingo. Lorem Ipum doth be hard.</p>
+        </div>
+        <a href="#">
+          <div class="property-social-icons">
+            <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions -->
+          </div>
+        </a>
+      </div>
+    </div>
+    <hr>
+    <br>
+    <p>As you have seen on the active projects, I am continuously learning and loving it! Now we will get to the fun
+        part.
+        Below are all the little projects I have built by watching tutorials, bootcamps and my own. I learned pretty
+        fast it
+        isn't just copying & pasting what you see on the screen but the best way to learn is to take the fundamentals
+        and
+        create your own version! </p>
+    <h3>I have Included behind each card a screenshot with the original project as some of the instructors have provided
+        free content and I wanted to give them homage. </h3>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h2>My C.V</h2>
+    
+    <h4>For any additional information, feel free to submit an email and I will response as soon as possible!
+    </h4>
+    <p>Disclaimer:</p>
+    <p>You will be prompted a captcha  </p>
+    <button onclick="downloadPDF()">Download PDF</button>
+    <button onclick="downloadWord()">Download Word Doc</button>
+    <form action="?" method="POST">
+        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+        <br />
+        <input type="submit" value="Submit">
+    </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+    <h3>Leave a Comment</h3>
+    <div id="respond">
+
+        
+
+        <form action="post_comment.php" method="post" id="commentform">
+
+            <label for="comment_author" class="required">Your name</label>
+            <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+            <label for="email" class="required">Your email</label>
+            <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+            <label for="comment" class="required">Your message</label>
+            <textarea name="comment" id="comment" rows="10" tabindex="4" required="required"></textarea>
+            <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+            <input name="submit" type="submit" value="Submit comment" />
+           
+        </form>
+
+    </div>
+
+    <h4> Thank you for visiting</h4>
+    
+    <script type="text/javascript">
+        var onloadCallback = function () {
+            alert("grecaptcha is ready!");
+        };
+    </script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }</script>
+    <script src="../Js/aboutMe.js"></script>
+</body>
+
+</html>
