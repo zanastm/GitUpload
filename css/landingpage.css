@@ -108,7 +108,7 @@ transition: all 0.1s;
 .nes-top {
 	position: absolute;
 	top: 0;
-	left0;
+	left:0;
 	 width: 45em;
 	height: 7.4em;
 	background: #cdc8c5;
@@ -157,7 +157,6 @@ h1 {
 	-moz-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	-webkit-perspective: 0;
 
 	-webkit-transform-origin:0 0 -6em;
 -moz-transform-origin:0 0 -6em;
